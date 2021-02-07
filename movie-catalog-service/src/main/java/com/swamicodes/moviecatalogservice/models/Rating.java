@@ -1,4 +1,4 @@
-package com.swamicodes.ratingdataservice.models;
+package com.swamicodes.moviecatalogservice.models;
 
 public class Rating {
 	
