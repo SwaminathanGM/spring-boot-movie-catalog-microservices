@@ -22,7 +22,7 @@ public class RatingsResource {
 	@RequestMapping("users/{userId}") 
 	public UserRating getUserRating() {
 		UserRating userRating = new UserRating();
-		List<Rating> ratingList = Arrays.asList(new Rating("1234", 4), new Rating("5678", 4));
+		List<Rating> ratingList = Arrays.asList(new Rating("tt10579952", 4), new Rating("tt10189514", 4));
 		userRating.setRatingsList(ratingList);
 		return userRating;
 	}
